@@ -1,0 +1,169 @@
+{
+  "key": "value",
+  "greeting": "Hello World",
+  "contact": {
+    "title1": "Get In",
+    "title2": "Touch",
+    "subtitle": "Have a project in mind or want to discuss potential opportunities? Feel free to reach out!",
+    "form": {
+      "name": "Full Name",
+      "email": "Email Address",
+      "subject": "Subject",
+      "message": "Message",
+      "submit": "Send Message"
+    },
+    "info": {
+      "title": "Contact Information",
+      "location": "Location",
+      "email": "Email",
+      "phone": "Phone",
+      "hours": "Working Hours"
+    },
+    "social": {
+      "title": "Connect With Me"
+    }
+  },
+  "navbar": {
+    "portfolio": "PORTFOLIO",
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "blog": "Blog",
+    "testimonials": "Testimonials",
+    "contact": "Contact"
+  },
+  
+  "header": {
+    "title": "Hi, I'm",
+    "subtitle": "Data Science & Cyber Security Beginner",
+    "description": "Bridging the gap between data insights and secure systems. Specializing in transforming complex data into actionable intelligence while ensuring robust digital security.",
+    "exploreWork": "Explore My Work",
+    "contactMe": "Contact Me"
+  },
+
+  "about": {
+    "title_1": "About",
+    "title_2": "me",
+    "subtitle": "Professional Background",
+    "description": "With over 8 years of experience in the tech industry, I've developed a unique blend of expertise in data science and cybersecurity. My journey began with a Bachelor's degree in Computer Science, followed by a Master's in Cybersecurity. I've worked with Fortune 500 companies, government agencies, and startups to solve complex problems at the intersection of data and security.",
+    "listtitle1": "Education",
+    "list11": "Master in Data Science and Artificial Intelligence -",
+    "list12": "Bachelor's degree in Computer Networking -",
+    "list13": "Advanced Technician's Certificate -",
+    "list14": "High School diploma, scientific option - Congo"
+  },
+
+  "blog": {
+    "title": "Latest",
+    "highlight": "Articles",
+    "subtitle": "I regularly write about data science, cybersecurity, and technology trends. Here are some of my recent articles.",
+    "viewAll": "View All Articles",
+    "readMore": "Read full article",
+    "allArticles": "All Articles",
+    "backToHome": "Back to Home",
+    "filterBy": "Filter by",
+    "clearFilters": "Clear all filters",
+    "articles": {
+      "ai": {
+        "date": "May 15, 2023",
+        "readTime": "8 min read",
+        "title": "The Role of AI in Modern Cybersecurity",
+        "description": "Exploring how artificial intelligence is transforming threat detection and response in cybersecurity."
+      },
+      "privacy": {
+        "date": "April 28, 2023",
+        "readTime": "6 min read",
+        "title": "Data Privacy in the Age of Big Data",
+        "description": "Understanding the challenges and solutions for maintaining privacy while extracting value from data."
+      },
+      "zeroTrust": {
+        "date": "March 10, 2023",
+        "readTime": "10 min read",
+        "title": "Implementing Zero Trust Architecture",
+        "description": "A practical guide to transitioning from traditional perimeter security to Zero Trust models."
+      }
+    }
+  },
+
+  "tags": {
+    "ai": "AI",
+    "security": "Security",
+    "ml": "Machine Learning",
+    "privacy": "Privacy",
+    "gdpr": "GDPR",
+    "dataScience": "Data Science",
+    "zeroTrust": "Zero Trust",
+    "architecture": "Architecture"
+  },
+
+  "skills": {
+    "title": "My",
+    "highlight": "Skills",
+    "dataScience": "Data Science",
+    "ml": "Machine Learning",
+    "dl": "Deep Learning",
+    "dataAnalysis": "Data Analysis",
+    "pythonTools": "Python, R, SQL",
+    "visualization": "Tableau, Power BI",
+    "bigData": "Big Data Technologies",
+    "networkSecurity": "Network & Security",
+    "systemAdmin": "Linux/Windows Admin",
+    "networkConfig": "Network Configuration",
+    "vpnFirewall": "VPN, Firewall Setup",
+    "systemSecurity": "System Security",
+    "vulnerability": "Vulnerability Analysis",
+    "cloudSecurity": "Cloud Security",
+    "cyberDefense": "Cyber Defense",
+    "incidentMgmt": "Incident Management",
+    "penTest": "Penetration Testing",
+    "audits": "Security Audits",
+    "compliance": "Compliance (ISO, NIST)",
+    "response": "Incident Response",
+    "riskMgmt": "Risk Management",
+    "webDev": "Web Development",
+    "frontend": "HTML, CSS, JavaScript",
+    "frameworks": "React, Vue.js",
+    "backend": "Node.js, Express",
+    "pythonDjango": "Python, Django",
+    "database": "Database Management",
+    "api": "RESTful APIs"
+  },
+
+  "projects": {
+    "title": "My",
+    "highlight": "Projects",
+    "description": "Here are some of my notable projects that demonstrate my technical skills across different domains.",
+    "all": "All Projects",
+    "dataScience": "Data Science",
+    "cybersecurity": "Cybersecurity",
+    "webDev": "Web Development",
+    "networking": "Networking",
+    "aiFraudDetection": "AI-Powered Fraud Detection",
+    "aiFraudDescription": "Machine learning system detecting fraudulent transactions with 98% accuracy",
+    "networkSecurity": "Enterprise Network Security Suite",
+    "networkSecurityDescription": "Comprehensive security solution with real-time threat detection",
+    "code": "Code",
+    "demo": "Demo",
+    "viewDetails": "View Details",
+    "loading": "Loading projects from GitHub...",
+    "noProjects": "No projects found",
+    "viewAll": "View All on GitHub",
+    "clientWork": "Client Work",
+    "clientProject": "Project for",
+    "challenges": "Challenges",
+    "solutions": "Solutions",
+    "confidential": "Confidential Project",
+    "visitSite": "Visit Website",
+    "domainFinance": "Financial Sector",
+    "domainHealth": "Healthcare",
+    "domainGovernment": "Government",
+    "sector": "Industry Sector",
+    "technologiesUsed": "Key Technologies",
+    "personal": "Personal Projects",
+    "viewOnGithub": "View on GitHub",
+    "projects": "projects",
+    "clientDescription": "Professional work for my clients",
+    "personalDescription": "Open source projects and personal initiatives"
+  }
+}

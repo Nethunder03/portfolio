@@ -1,0 +1,168 @@
+{
+  "key": "valeur",
+  "greeting": "Bonjour le monde",
+  "contact": {
+    "title1": "Me",
+    "title2": "Contacter",
+    "subtitle": "Vous avez un projet en tête ou souhaitez discuter d'opportunités potentielles ? N'hésitez pas à nous contacter !",
+    "form": {
+      "name": "Nom Complet",
+      "email": "Adresse Email",
+      "subject": "Sujet",
+      "message": "Message",
+      "submit": "Envoyer le Message"
+    },
+    "info": {
+      "title": "Informations de Contact",
+      "location": "Localisation",
+      "email": "Email",
+      "phone": "Téléphone",
+      "hours": "Heures de Travail"
+    },
+    "social": {
+      "title": "Me Suivre"
+    }
+  },
+  "navbar": {
+    "portfolio": "PORTFOLIO",
+    "home": "Accueil",
+    "about": "À Propos",
+    "skills": "Compétences",
+    "projects": "Projets",
+    "blog": "Blog",
+    "testimonials": "Témoignages",
+    "contact": "Contact"
+  },
+  "header": {
+    "title": "Salut, J'suis",
+    "subtitle": "Débutant en Science des Données & Cybersécurité",
+    "description": "Combler le fossé entre les insights données et la sécurité des systèmes. Spécialisé dans la transformation de données complexes en intelligence actionnable tout en garantissant une sécurité numérique robuste.",
+    "exploreWork": "Voir Mon Travail",
+    "contactMe": "Me Contacter"
+  },
+
+  "about": {
+    "title_1": "À Propos",
+    "title_2": "de moi",
+    "subtitle": "Expérience professionnelle",
+    "description": "Avec plus de 8 ans d'expérience dans l'industrie technologique, j'ai développé un mélange unique d'expertise en science des données et en cybersécurité. Mon parcours a commencé par une licence en informatique, suivie d'un master en cybersécurité. J'ai travaillé avec des entreprises du Fortune 500, des agences gouvernementales et des startups pour résoudre des problèmes complexes à l'intersection des données et de la sécurité.",
+    "listtitle1": "Formation",
+    "list11": "Master en Science de données et Intélligence Artificielle  -",
+    "list12": "Licence en réseaux informatiques -",
+    "list13": "Diplôme de Technicien Supérieur -",
+    "list14": "Baccalauréat série Scientifique, Congo"
+  },
+
+  "blog": {
+    "title": "Derniers",
+    "highlight": "Articles",
+    "subtitle": "J'écris régulièrement sur la science des données, la cybersécurité et les tendances technologiques. Voici quelques-uns de mes articles récents.",
+    "viewAll": "Voir tous les articles",
+    "readMore": "Lire l'article complet",
+    "articles": {
+      "ai": {
+        "date": "15 mai 2023",
+        "readTime": "8 min de lecture",
+        "title": "Le rôle de l'IA dans la cybersécurité moderne",
+        "description": "Exploration de la manière dont l'intelligence artificielle transforme la détection et la réponse aux menaces en cybersécurité."
+      },
+      "privacy": {
+        "date": "28 avril 2023",
+        "readTime": "6 min de lecture",
+        "title": "Protection des données à l'ère du Big Data",
+        "description": "Comprendre les défis et solutions pour préserver la confidentialité tout en exploitant la valeur des données."
+      },
+      "zeroTrust": {
+        "date": "10 mars 2023",
+        "readTime": "10 min de lecture",
+        "title": "Mise en œuvre d'une architecture Zero Trust",
+        "description": "Guide pratique pour transitionner des modèles de sécurité périmétrique traditionnels vers le Zero Trust."
+      }
+    },
+    "allArticles": "Tous les articles",
+    "backToHome": "Retour à l'accueil",
+    "filterBy": "Filtrer par",
+    "clearFilters": "Réinitialiser les filtres"
+  },
+
+  "tags": {
+    "ai": "IA",
+    "security": "Sécurité",
+    "ml": "Apprentissage automatique",
+    "privacy": "Confidentialité",
+    "gdpr": "RGPD",
+    "dataScience": "Science des données",
+    "zeroTrust": "Zero Trust",
+    "architecture": "Architecture"
+  },
+
+  "skills": {
+    "title": "Mes",
+    "highlight": "Compétences",
+    "dataScience": "Science des Données",
+    "ml": "Machine Learning",
+    "dl": "Deep Learning",
+    "dataAnalysis": "Analyse de Données",
+    "pythonTools": "Python, R, SQL",
+    "visualization": "Tableau, Power BI",
+    "bigData": "Technologies Big Data",
+    "networkSecurity": "Réseau & Sécurité",
+    "systemAdmin": "Administration Linux/Windows",
+    "networkConfig": "Configuration Réseau",
+    "vpnFirewall": "VPN, Pare-feu",
+    "systemSecurity": "Sécurité Système",
+    "vulnerability": "Analyse de Vulnérabilités",
+    "cloudSecurity": "Sécurité Cloud",
+    "cyberDefense": "Cyberdéfense",
+    "incidentMgmt": "Gestion d'Incidents",
+    "penTest": "Tests d'Intrusion",
+    "audits": "Audits de Sécurité",
+    "compliance": "Conformité (ISO, NIST)",
+    "response": "Réponse aux Incidents",
+    "riskMgmt": "Gestion des Risques",
+    "webDev": "Développement Web",
+    "frontend": "HTML, CSS, JavaScript",
+    "frameworks": "React, Vue.js",
+    "backend": "Node.js, Express",
+    "pythonDjango": "Python, Django",
+    "database": "Gestion de Bases de Données",
+    "api": "API RESTful"
+  },
+
+  "projects": {
+    "title": "Mes",
+    "highlight": "Projets",
+    "description": "Voici quelques-uns de mes projets notables qui illustrent mes compétences techniques dans différents domaines.",
+    "all": "Tous les projets",
+    "dataScience": "Science des données",
+    "cybersecurity": "Cybersécurité",
+    "webDev": "Développement Web",
+    "networking": "Réseau",
+    "aiFraudDetection": "Détection de fraude par IA",
+    "aiFraudDescription": "Système de machine learning détectant les transactions frauduleuses avec 98% de précision",
+    "networkSecurity": "Suite de sécurité réseau d'entreprise",
+    "networkSecurityDescription": "Solution de sécurité complète avec détection de menaces en temps réel",
+    "code": "Code",
+    "demo": "Démo",
+    "viewDetails": "Voir les détails",
+    "loading": "Chargement des projets depuis GitHub...",
+    "noProjects": "Aucun projet trouvé",
+    "viewAll": "Voir tout sur GitHub",
+    "clientWork": "Projets Clients",
+    "clientProject": "Projet réalisé pour",
+    "challenges": "Défis",
+    "solutions": "Solutions",
+    "confidential": "Projet confidentiel",
+    "visitSite": "Visiter le site",
+    "domainFinance": "Secteur Financier",
+    "domainHealth": "Santé",
+    "domainGovernment": "Gouvernement",
+    "sector": "Secteur",
+    "technologiesUsed": "Technologies clés",
+    "personal": "Projets Personnels",
+    "viewOnGithub": "Voir sur GitHub",
+    "projects": "projets",
+    "clientDescription": "Réalisations professionnelles pour mes clients",
+    "personalDescription": "Projets open source et initiatives personnelles"
+  }
+} 
