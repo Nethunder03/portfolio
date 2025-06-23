@@ -8,14 +8,14 @@ const Projects: React.FC = () => {
   const { t } = useTranslation();
   const [activeFilter, setActiveFilter] = useState<string>("all");
   const [projects, setProjects] = useState<any[]>([]);
-  const [clientProjectsData, setClientProjects] = useState<ClientProject[]>([]);
+  // const [clientProjectsData, setClientProjects] = useState<ClientProject[]>([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     const loadData = async () => {
       const githubProjects = await getProjects();
       setProjects([...githubProjects, ...clientProjects]);
-      setClientProjects(clientProjects);
+      // setClientProjects(clientProjects);
       setLoading(false);
     };
     
@@ -25,11 +25,11 @@ const Projects: React.FC = () => {
   const personalProjects = projects.filter(p => !p.client);
   const clientProjectsDisplay = projects.filter(p => p.client);
 
-  const filteredProjects = activeFilter === 'all' 
-    ? projects 
-    : projects.filter(project => 
-        project.tags?.some((tag: string) => tag === activeFilter)
-      );
+  // const filteredProjects = activeFilter === 'all' 
+  //   ? projects 
+  //   : projects.filter(project => 
+  //       project.tags?.some((tag: string) => tag === activeFilter)
+  //     );
 
   const filters = [
     { id: 'all', label: t('projects.all') },
