@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useTranslation } from 'react-i18next';
 import { getProjects } from "../../services/githubCMS";
-import clientProjects, { ClientProject } from '../../data/clientProjects';
+import clientProjects from '../../data/clientProjects';
 import ConfidentialBadge from "../../components/ConfidentialBadge";
 
 const Projects: React.FC = () => {
