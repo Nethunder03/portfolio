@@ -30,19 +30,75 @@ const About: React.FC = () => {
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
                         <div className="bg-gray-50 p-4 rounded-lg border border-gray-200">
                             <h4 className="font-semibold text-blue-600 mb-2"><i className="fas fa-graduation-cap mr-2"></i>{t('about.listtitle1')}</h4>
-                            <ul className="space-y-2">
-                                <li>{t('about.list11')} <a href="https://www.groupeisi.com/">ISI Dakar</a> (2025)</li>
-                                <li>{t('about.list12')} <a href="https://www.groupeisi.com/">ISI Dakar</a> (2023)</li>
-                                <li>{t('about.list13')} <a href="https://www.groupeisi.com/">ISI Dakar</a> (2022)</li>
-                                <li>{t('about.list14')}</li>
-                            </ul>
+
+                                <ul className="space-y-4">
+                                    <li className="flex items-center py-2 px-3 border-l-4 bg-gradient-to-br from-[#0f172a] to-[#1e293b] text-white rounded-xl shadow-lg border border-blue-500 overflow-hidden">
+                                        <div className="w-6 h-6 text-blue-500 mt-1" /* icône d'exemple */><i className="fas fa-graduation-cap mr-2"></i></div>
+                                    <div>
+                                            <div className="gras">{t('about.list11')}</div>
+                                            <div>ISI Dakar — 2025</div>
+                                        </div>
+                                </li>
+
+                                    <li className="flex items-center py-2 px-3 border-l-4 bg-gradient-to-br from-[#0f172a] to-[#1e293b] text-white rounded-xl shadow-lg border border-purple-500 overflow-hidden">
+                                        <div className="w-6 h-6 text-purple-500 mt-1" /* icône d'exemple */><i className="fas fa-graduation-cap mr-2"></i></div>
+                                        <div>
+                                            <div className="gras">{t('about.list12')}</div>
+                                            <div>ISI Dakar — 2025</div>
+                                        </div>
+                                    </li>
+
+                                   <li className="flex items-center py-2 px-3 border-l-4  bg-gradient-to-br from-[#0f172a] to-[#1e293b] text-white rounded-xl shadow-lg border border-teal-500 overflow-hidden">
+                                        <div className="w-6 h-6 text-teal-500 mt-1" /* icône d'exemple */><i className="fas fa-graduation-cap mr-2"></i></div>
+                                        <div>
+                                            <div className="gras">{t('about.list13')}</div>
+                                            <div>ISI Dakar — 2025</div>
+                                        </div>
+                                    </li>
+
+                                    <li className="flex items-center py-2 px-3 border-l-4 bg-gradient-to-br from-[#0f172a] to-[#1e293b] text-white rounded-xl shadow-lg border border-indigo-500 overflow-hidden">
+                                        <div className="w-6 h-6 text-indigo-500 mt-1" /* icône d'exemple */><i className="fas fa-graduation-cap mr-2"></i></div>
+                                        <div>
+                                            <div className="gras">{t('about.list14')}</div>
+                                            <div>ISI Dakar — 2025</div>
+                                        </div>
+                                    </li>
+
+                                    </ul>
+
+
                         </div>
                         <div className="bg-gray-50 p-4 rounded-lg border border-gray-200">
-                            <h4 className="font-semibold text-blue-600 mb-2"><i className="fas fa-briefcase mr-2"></i>Experience</h4>
+                            <h4 className="font-semibold text-blue-600 mb-2"><i className="fas fa-briefcase mr-2"></i>Formations professionnelles</h4>
                             <ul className="space-y-2">
-                                <li>Senior Data Scientist - Google (2020-Present)</li>
-                                <li>Cybersecurity Consultant - Deloitte (2016-2020)</li>
-                                <li>Network Engineer - Cisco (2014-2016)</li>
+                                <li className="py-2 px-3 border-l-4 border-blue-500 bg-white shadow-sm rounded">
+
+                                    <svg className="w-6 h-6 text-blue-500 mt-1" /* icône d'exemple */>...</svg>
+                                    <div>
+                                        <div className="gras">{t('about.list11')}</div>
+                                        <div>ISI Dakar — 2025</div>
+                                    </div>
+                                    </li>
+
+                                <li className="flex items-center py-2 px-3 border-l-4 border-blue-500 bg-white shadow-sm rounded-md">
+                                    <svg className="w-6 h-6 text-blue-500 mt-1" /* icône d'exemple */>...</svg>
+                                    <div>
+                                        <div className="gras">{t('about.list11')}</div>
+                                        <div>ISI Dakar — 2025</div>
+                                    </div>
+  
+                                </li>
+
+                                 <li className="flex items-center py-2 px-3 border-l-4 border-blue-500 bg-white shadow-sm rounded-md">
+                                    <svg className="w-6 h-6 text-blue-500 mt-1" /* icône d'exemple */>...</svg>
+                                    <div>
+                                        <div className="gras">{t('about.list12')}</div>
+                                        <div>ISI Dakar — 2025</div>
+                                    </div>
+  
+                                </li>
+
+
                             </ul>
                         </div>
                     </div>
